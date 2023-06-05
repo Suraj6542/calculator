@@ -78,7 +78,7 @@
                 <tr>
                     <td><button>0</button></td>
                     <td><button>clear</button></td>
-                    <td><button>Back</button></td>
+           
                     <td><button>/</button></td>
                 </tr>
                 <tr>
@@ -98,10 +98,6 @@
   switch(value) {
     case "clear":
       display.innerText = ""
-      break
-
-    case "backspace":
-      display.innerText = display.innerText.slice(0, -1)
       break
       
     case "=":
